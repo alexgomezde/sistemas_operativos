@@ -15,7 +15,7 @@ Bitácora de Comandos
 * `nano [nombre del archivo con el formato]` edita un archivo. 
 * `cat [nombre del archivo con el formato]` muestra el contenido del archivo en el CLI.
 * `ps -aux` información de procesos. 
-* `ps -aux | grep [parametro de búsqueda]` se obtiene información de procesos por medio de un parámetro específico.
+  * `ps -aux | grep [parametro de búsqueda]` se obtiene información de procesos por medio de un parámetro específico.
 * `kill –9 [numero del proceso]` elimina un proceso. 
 * `pstress` árbol de procesos.
 
