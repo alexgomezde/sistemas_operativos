@@ -17,6 +17,6 @@ Bitácora de Comandos
 * `ps -aux` información de procesos. 
   * `ps -aux | grep [parametro de búsqueda]` se obtiene información de procesos por medio de un parámetro específico.
 * `kill –9 [numero del proceso]` elimina un proceso. 
-* `pstress` árbol de procesos.
+* `pstree` árbol de procesos.
 
 
