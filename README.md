@@ -39,7 +39,7 @@ SEMANA 3
 * `dpkg -i [nombre del paquete]` instalación de paquetes. 
 * `!!` corre el ultimo comando 
 * `sudo !!` corre el último comando con permisos de administrador.
-* sudo add-apt-repository ppa:numix/ppa -y [agregar un repositorio]. 
+* `sudo add-apt-repository ppa:numix/ppa -y` agregar repositorio. 
 
 
 
