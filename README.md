@@ -1,8 +1,6 @@
 # sistemas_operativos
 Bitácora de Comandos
 
-SEMANA 2
-
 * `ip addr` muestra la dirección IP de la computadora.
 * `lsb_release -a` muestra la versión del sistema operativo.
 * `uname -a` muestra la versión del kernel.
@@ -20,9 +18,6 @@ SEMANA 2
   * `ps -aux | grep [parametro de búsqueda]` se obtiene información de procesos por medio de un parámetro específico.
 * `kill –9 [numero del proceso]` elimina un proceso. 
 * `pstree` árbol de procesos.
-
-SEMANA 3 
-
 * `man [comando]` muestra el manual de un comando.
 * `sudo su` cambiar a usuario root.
 * `whoami` muestra el usuario que esta logueado.
