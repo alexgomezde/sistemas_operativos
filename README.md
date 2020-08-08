@@ -12,6 +12,11 @@ Bitácora de Comandos
 * `cd` cambiar de directorio.
 * `pwd` imprime la ruta del directorio actual.
 * `touch [nombre del archivo con el formato]` crea un archivo.
+* `mv [nombre o ruta del archivo o directorio que se desea mover] [ruta de destino del directorio]` mover archivos o carpetas.
+* `rm [nombre o ruta del archivo o directorio] ` remover archivos o carpetas.
+  * `rm -r [nombre de la carpeta]` remover directorios y su contenidos recursivamente. 
+* `chmod [permisos] [nombre del archivo o carpeta]` cambiar permisos de archivos y carpetas. 
+* `chown [owner/group owner] [nombre del archivo o carpeta]` cambiar permisos de archivos y carpetas. 
 * `nano [nombre del archivo con el formato]` edita un archivo. 
 * `cat [nombre del archivo con el formato]` muestra el contenido del archivo en el CLI.
 * `ps -aux` información de procesos. 
@@ -35,6 +40,13 @@ Bitácora de Comandos
 * `!!` corre el ultimo comando 
 * `sudo !!` corre el último comando con permisos de administrador.
 * `sudo add-apt-repository ppa:numix/ppa -y` agregar repositorio. 
+* `sudo add-apt-repository ppa:numix/ppa -y` agregar repositorio. 
+* `neofetch` muestra información del sistema operativo, software y hardware de una manera estética y visualmente agradable.
+* `ln -s [archivo.orginal] [enlacesuave.archivo]` creación de enlaces suaves.
+* `ln [archivo.orginal] [enlaceduro.archivo]` creación de enlaces duros.
+
+
+
 
 
 
