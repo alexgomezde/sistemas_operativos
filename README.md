@@ -12,6 +12,7 @@ Bitácora de Comandos
 * `cd` cambiar de directorio.
 * `pwd` imprime la ruta del directorio actual.
 * `touch [nombre del archivo con el formato]` crea un archivo.
+* `cp [nombre del archivo] [nombre del archivo con el formato]` copiar archivos o carpetas.
 * `mv [nombre o ruta del archivo o directorio que se desea mover] [ruta de destino del directorio]` mover archivos o carpetas.
 * `rm [nombre o ruta del archivo o directorio] ` remover archivos o carpetas.
   * `rm -r [nombre de la carpeta]` remover directorios y su contenidos recursivamente. 
@@ -54,10 +55,8 @@ Bitácora de Comandos
 * `gnome-disk-utility` muestra información sobre el disco.
 * `bash --version` muestra la versión bash.
 * `[comando] --help` obtener información de comando.
-
-
-
-
-
-
-
+* `shutdown` apagar el sistema operativo.
+* `wget [URL]` permite descargar archivos.
+* `traceroute [URL]` información acerca de la ruta que toma un paquete que será enviado desde nuestro equipo hasta un host de destino.
+* `clear` limpiar la terminal.
+* `tar` comprimir archivos y extraerlos.
