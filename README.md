@@ -16,6 +16,7 @@ Bitácora de Comandos
 * `rm [nombre o ruta del archivo o directorio] ` remover archivos o carpetas.
   * `rm -r [nombre de la carpeta]` remover directorios y su contenidos recursivamente. 
 * `chmod [permisos] [nombre del archivo o carpeta]` cambiar permisos de archivos y carpetas. 
+  * `chmod 644 [nombre del archivo]` el propietario puede leer y escribir, el grupo solo puede leer y otros solo pueden leer. 
 * `chown [owner/group owner] [nombre del archivo o carpeta]` cambiar permisos de archivos y carpetas. 
 * `nano [nombre del archivo con el formato]` edita un archivo. 
 * `cat [nombre del archivo con el formato]` muestra el contenido del archivo en el CLI.
@@ -51,6 +52,8 @@ Bitácora de Comandos
 * `mount` montaje de dispositivos en el sistema de archivos.
 * `gparted` administra las particiones.
 * `gnome-disk-utility` muestra información sobre el disco.
+* `bash --version` muestra la versión bash.
+* `[comando] --help` obtener información de comando.
 
 
 
