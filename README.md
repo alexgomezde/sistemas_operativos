@@ -44,6 +44,13 @@ Bitácora de Comandos
 * `neofetch` muestra información del sistema operativo, software y hardware de una manera estética y visualmente agradable.
 * `ln -s [archivo.orginal] [enlacesuave.archivo]` creación de enlaces suaves.
 * `ln [archivo.orginal] [enlaceduro.archivo]` creación de enlaces duros.
+* `du -h [nombre del archivo]` tamaño del archivo.
+* `stat [nombre del archivo]` fecha de creación, último acceso.
+* `file [nombre del archivo]` tipo de archivo.
+* `df -h` mostrar el espacio en disco usado.
+* `mount` montaje de dispositivos en el sistema de archivos.
+* `gparted` administra las particiones.
+* `gnome-disk-utility` muestra información sobre el disco.
 
 
 
