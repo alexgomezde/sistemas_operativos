@@ -32,12 +32,14 @@ Bitácora de Comandos
 * `whoami` muestra el usuario que esta logueado.
 * `who am i` muestra información del usuario actual.
 * `who` muestra información de los usuarios logueados en el sistema.
+* `w` muestra información de los usuarios logueados en el sistema y que están haciendo.
 * `cat /var/log/syslog | more` muestra por páginas. 
 * `tail –n 10 /var/log/syslog` ultimas (tail) diez líneas del archivo (-n 10).
 * `head–n 10 /var/log/syslog` primeras (head) diez líneas del archivo  (-n 10).
 * `sudo apt update && sudo apt upgrade` actualiza y después instala.
 * `alias actualizar="sudo apt update && sudo apt upgrade"` crear un alias para ejecutar comandos.
-* `useradd [nombre del usuario] -p [contraseña]`crear usuario.  
+* `useradd [nombre del usuario] -p [contraseña]` crear usuario. 
+* `userdel`  remueve usuario. 
 * `passwd  [nombre del usuario]` cambiar el password  de un usuario.
 * `groupadd [nombre del grupo]` crea un nuevo grupo.
 * `history` muestra los comandos digitados.
@@ -63,10 +65,13 @@ Bitácora de Comandos
 * `[comando] --help` obtener información de comando.
 * `shutdown` apagar el sistema operativo.
 * `sleep [cantidad de minutos]` poner la computadora en sleep por una cantidad de tiempo especificada.
+* `reboot` reinicia el sistema.
 * `wget [URL]` permite descargar archivos.
 * `ping [dirección IP]` verificar conexión entre dos nodos.
+* `hostname` muestra el hostname.
 * `host [dirección IP] ó [nombre del dominio]` muestra la dirección IP de un nombre de dominio determinado y viceversa.
 * `traceroute [URL]` información acerca de la ruta que toma un paquete que será enviado desde nuestro equipo hasta un host de destino.
+* `netstat` muestra información de las conexiones.
 * `clear` limpiar la terminal.
 * `tar` comprimir archivos y extraerlos.
 * `gzip` comprimir arhivos.
@@ -77,4 +82,5 @@ Bitácora de Comandos
 * `date` muestra la fecha, hora y zona horaria.
 * `exit` cerrar la terminal.
 * `ssh user_name@host(IP/Domain_name)` establecer conexión SSH.
+* `whatis [comando]` saber que hace un comando en específico.
 
