@@ -8,7 +8,9 @@ Bitácora de Comandos
   * `ls -l` muestra los archivos que están en la carpeta en forma de lista. 
   * `ls -la` muestra los archivos ocultos que están en la carpeta en forma de lista. 
   * `ls [nombre de la carpeta]` muestra los archivos de una carpeta en específico. 
-* `mkdir` crear carpeta.
+* `mkdir [nombre del directorio]` crear directorio.
+* `rmdir [nombre del directorio]` remover directorio.
+  * `rmdir -r` remueve el directorio y su contenido. 
 * `cd` cambiar de directorio.
 * `pwd` imprime la ruta del directorio actual.
 * `touch [nombre del archivo con el formato]` crea un archivo.
@@ -28,6 +30,8 @@ Bitácora de Comandos
 * `man [comando]` muestra el manual de un comando.
 * `sudo su` cambiar a usuario root.
 * `whoami` muestra el usuario que esta logueado.
+* `who am i` muestra información del usuario actual.
+* `who` muestra información de los usuarios logueados en el sistema.
 * `cat /var/log/syslog | more` muestra por páginas. 
 * `tail –n 10 /var/log/syslog` ultimas (tail) diez líneas del archivo (-n 10).
 * `head–n 10 /var/log/syslog` primeras (head) diez líneas del archivo  (-n 10).
@@ -35,6 +39,7 @@ Bitácora de Comandos
 * `alias actualizar="sudo apt update && sudo apt upgrade"` crear un alias para ejecutar comandos.
 * `useradd [nombre del usuario] -p [contraseña]`crear usuario.  
 * `passwd  [nombre del usuario]` cambiar el password  de un usuario.
+* `groupadd [nombre del grupo]` crea un nuevo grupo.
 * `history` muestra los comandos digitados.
 * `history | grep [parametro]` busca un comando digitado en el historial en base al parámetro especificado.
 * `sudo apt remove [package name]` remueve un paquete. 
@@ -49,14 +54,27 @@ Bitácora de Comandos
 * `du -h [nombre del archivo]` tamaño del archivo.
 * `stat [nombre del archivo]` fecha de creación, último acceso.
 * `file [nombre del archivo]` tipo de archivo.
-* `df -h` mostrar el espacio en disco usado.
+* `df` (disk free) mostrar el espacio en disco usado y libre.
+  * `df -h` mostrar el espacio en disco usado y libre en potencia 1024.
 * `mount` montaje de dispositivos en el sistema de archivos.
 * `gparted` administra las particiones.
 * `gnome-disk-utility` muestra información sobre el disco.
 * `bash --version` muestra la versión bash.
 * `[comando] --help` obtener información de comando.
 * `shutdown` apagar el sistema operativo.
+* `sleep [cantidad de minutos]` poner la computadora en sleep por una cantidad de tiempo especificada.
 * `wget [URL]` permite descargar archivos.
+* `ping [dirección IP]` verificar conexión entre dos nodos.
+* `host [dirección IP] ó [nombre del dominio]` muestra la dirección IP de un nombre de dominio determinado y viceversa.
 * `traceroute [URL]` información acerca de la ruta que toma un paquete que será enviado desde nuestro equipo hasta un host de destino.
 * `clear` limpiar la terminal.
 * `tar` comprimir archivos y extraerlos.
+* `gzip` comprimir arhivos.
+* `sort` ordenar archivos alfabeticamente.
+* `gzip [arhivo 1] [arhivo 2]` se utiliza para truncar el tamaño de un archivo.
+* `gunzip [arhivo 1] [arhivo 2]` descomprime archivos.
+* `locate [nombre del archivo]` se utiliza para buscar un archivo por su nombre.
+* `date` muestra la fecha, hora y zona horaria.
+* `exit` cerrar la terminal.
+* `ssh user_name@host(IP/Domain_name)` establecer conexión SSH.
+
